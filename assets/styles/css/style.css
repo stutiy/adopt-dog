@@ -1,0 +1,13 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_navbar\.scss}line{font-family:\000031}}
+.navbar-brand img {
+  width: 20vh;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_navbar\.scss}line{font-family:\000035}}
+.navbar-collapse {
+  width: 50vh;
+  float: right;
+  margin-top: 1vh;
+}
+
+/*# sourceMappingURL=style.css.map */
