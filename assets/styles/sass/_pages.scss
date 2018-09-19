@@ -1,6 +1,7 @@
 /*index.html*/
 .carousel-inner img{
   width: 100%;
+  height: 90vh;
 }
 .carousel-caption{
   position: absolute;
@@ -19,11 +20,12 @@
 	}
 	.btn-primary{
 		color: #000;
-		background: #FFE4C4;
-		border: 1px solid #FFE4C4;
+		background: #CD853F;
+		border: 1px solid #CD853F;
 		&:hover{
-			background: #D2B48C;
-			border: 1px solid #D2B48C;
+			background: #8B4513;
+			border: 1px solid #8B4513;
+			color: #fbfbfb;
 		}
 	}
 
