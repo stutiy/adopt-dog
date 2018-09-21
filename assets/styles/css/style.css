@@ -24,35 +24,34 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\000032}}
 .carousel-inner img {
   width: 100%;
-  height: 90vh;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\000035}}
 .carousel-caption {
   position: absolute;
   top: 50%;
   transform: translateY(-35%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\0000310}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\000039}}
 .carousel-caption h1 {
   font-size: 500%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\0000314}}
 .carousel-caption h3 {
   font-size: 200%;
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\0000321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\0000320}}
 .carousel-caption .btn-primary {
   color: #000;
   background: #CD853F;
   border: 1px solid #CD853F;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github\/assets\/styles\/sass\/_pages\.scss}line{font-family:\0000324}}
 .carousel-caption .btn-primary:hover {
   background: #8B4513;
   border: 1px solid #8B4513;
