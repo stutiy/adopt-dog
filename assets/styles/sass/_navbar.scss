@@ -3,18 +3,12 @@
 }
 
 .navbar-collapse {
-		width: 50vh;
-	    float: right;
-	    margin-top: 1vh;
-	}
-.navbar-light {
-	.navbar-nav {
-		.nav-link {
-    		color: #fff;
-    	}
-    }
+	width: 50vh;
+    float: right;
+    margin-top: 1vh;
 }
 
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #DEB887;
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+    color: #fff;
 }
