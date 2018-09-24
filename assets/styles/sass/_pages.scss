@@ -34,7 +34,7 @@
 	h1 {
 		transform: translateY(10vh);
 	}
-	.card {
+	.card1 {
 		transform: translateY(20vh);
 		width: 90vh;
 		border: none;
@@ -76,6 +76,20 @@
 		}
 
 	}
+	.mid {
+		h1 {
+			transform: translateY(23vh);
+		}
+		.card {
+			width: 40vh;
+			transform: translateY(30vh);
+			margin: 10vh;
+		}
+		p {
+			line-height: 5px;
+			color: $p-text;
+		}
+	}
 }
 
 figure {
@@ -106,6 +120,8 @@ figure {
           transform: translateZ(0);
   will-change: transform;
 }
+
+
 
 
 
