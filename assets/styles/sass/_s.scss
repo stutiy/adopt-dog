@@ -10,14 +10,23 @@ html, body{
 .navbar{
   padding: .8rem;
 }
+
+.dark {
+  background: #000;
+}
+
 .navbar-collapse{
   width: 30px;
   float: right;
-  margin-right: 28em;
+  margin-right: 14em;
   margin-top: .4em;
 }
 .navbar-nav li{
    padding-right: 20px;
+}
+
+.navbar-brand img {
+  width: 20vh;
 }
 .nav-link{
   font-size: 1.1em !important;
@@ -43,19 +52,30 @@ html, body{
   padding-bottom: 1rem;
 }
 .btn-primary{
-  background: #6648b1;
-  border: 1px solid #6648b1;
-}
-.btn-primary:hover{
-  background: #563d7c;
-  border: 1px solid #563d7c;
-}
+    color: #000;
+    background: #CD853F;
+    border: 1px solid #CD853F;
+    &:hover{
+      background: #8B4513;
+      border: 1px solid #8B4513;
+      color: #fbfbfb;
+    }
+  }
 .jumbotron{
   padding: 1rem;
   border-radius: 0;
 }
 .padding{
   padding-bottom: 2rem;
+}
+.padding-top {
+  padding-top: 10vh;
+}
+.padding-top-less {
+  padding-top: 3vh;
+}
+.padding-up {
+  margin-top: -15vh;
 }
 .welcome{
   width: 75%;
@@ -68,29 +88,25 @@ html, body{
   margin-top: 3rem;
   margin-bottom: 1rem;
 }
-.fa-code{
-  color: #e54d26;
+.fa-check, .fa-search, .fa-question{
+  color: #834227;
 }
-.fa-bold{
-  color: #563d7c;
-}
-.fa-css3{
-  color: #2163af
-}
-.fa-code, .fa-bold, .fa-css3 {
+
+.fa-check, .fa-search, .fa-question{
   font-size: 4em;
   margin: 1rem;
 }
-.fun {
-  width: 100%;
-  margin-bottom: 2rem;
-  border-radius: 0;
-  padding: 10px;
-  color: #112;
-  border: none;
-}
-.gif {
-  max-width: 100%;
+a {
+  &.btn_check {
+        border: 1px solid #CD853F;
+        border-radius: 30px;
+        color: #000;
+        &:hover {
+          background: #CD853F;
+          border: 1px solid #CD853F;
+          color: #fff;
+        }
+      }
 }
 .social a {
   font-size: 4.5em;
@@ -116,22 +132,25 @@ html, body{
   color: #d5d5d5;
 }
 footer{
-  background: #3f3f3f;
-  color: #d5d5d5;
+  background: #000;
+  color: #fff;
   padding-top: 2rem;
+  img {
+    width: 20vh;
+  }
 }
 hr.light {
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #fff;
   width: 75%;
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
 footer a {
-  color: #d5d5d5;
+  color: #fff;
 }
 hr.light-100 {
   width: 100%;
-  border-top: 1px solid #d5d5d5;
+  border-top: 1px solid #fff;
   margin-top: .8rem;
   margin-bottom: 1rem;
 }
@@ -259,8 +278,15 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 
 
+.text {
+  margin-top: -10vh;
+}
 
 
 
-
-
+/* About */
+img {
+  &.logo-b {
+    width: 20vh;
+  }
+}
