@@ -1,0 +1,33 @@
+.navbar{
+  padding: .8rem;
+}
+
+.dark {
+  background: #000;
+}
+
+.navbar-collapse{
+  width: 30px;
+  float: right;
+  margin-right: 16em;
+  margin-top: .4em;
+}
+.navbar-nav li{
+   padding-right: 20px;
+}
+
+.navbar-brand img {
+  width: 20vh;
+}
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	&:hover {
+		color: #000;
+		text-decoration: none;
+	}
+}
