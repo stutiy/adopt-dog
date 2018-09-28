@@ -11,85 +11,110 @@ html, body {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000312}}
-.carousel-inner img {
-  width: 100%;
-  height: 100%;
+.active {
+  color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000315}}
+.banner-wrap {
+  height: calc(100vh - 45px);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000317}}
+.banner-wrap .carousel {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000320}}
+.banner-wrap .carousel-indicators {
+  bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000323}}
+.banner-wrap .carousel-inner {
+  height: calc(100vh - 45px);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000326}}
+.banner-wrap .carousel .items {
+  text-align: center;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000332}}
+.carousel-inner img {
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000335}}
 .carousel-caption {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000339}}
 .carousel-caption h1 {
   font-size: 500%;
   text-transform: uppercase;
   text-shadow: 1px 1px 15px #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000344}}
 .carousel-caption h3 {
   font-size: 200%;
   font-weight: 500;
   text-shadow: 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000350}}
 .carousel-caption a {
   color: #fff;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000353}}
 .carousel-caption a:hover {
   color: #000;
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000360}}
 .btn-primary {
   border: 1px solid #CD853F;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000362}}
 .btn-primary:hover {
   background: #8B4513;
   border: 1px solid #8B4513;
   color: #fbfbfb;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000369}}
 .jumbotron {
   padding: 1rem;
   border-radius: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000373}}
 .padding {
   padding-bottom: 2rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000376}}
 .padding-top {
   padding-top: 10vh;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000379}}
 .padding-top-less {
   padding-top: 3vh;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000382}}
 .padding-up {
   margin-top: -15vh;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000385}}
 .welcome {
   width: 75%;
   margin: 0 auto;
   padding-top: 2rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000389}}
 .welcome hr {
   border-top: 2px solid #b4b4b4;
   width: 95%;
@@ -97,41 +122,41 @@ html, body {
   margin-bottom: 1rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000398}}
 .fa-check, .fa-search, .fa-question {
   font-size: 4em;
   margin: 1rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003103}}
 a.btn_check {
   border: 1px solid #CD853F;
   border-radius: 30px;
   color: #000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003107}}
 a.btn_check:hover {
   background: #CD853F;
   border: 1px solid #CD853F;
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003116}}
 footer {
   background: #000;
   color: #fff;
   padding-top: 2rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003120}}
 footer img {
   width: 20vh;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003123}}
 footer a {
   color: #fff;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003127}}
 hr.light {
   border-top: 1px solid #fff;
   width: 75%;
@@ -139,7 +164,7 @@ hr.light {
   margin-bottom: 1rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003134}}
 hr.light-100 {
   width: 100%;
   border-top: 1px solid #fff;
@@ -148,24 +173,24 @@ hr.light-100 {
 }
 
 /*---Firefox Bug Fix --*/
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003142}}
 .carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  transition: transform 0.4s ease, -webkit-transform 0.4s ease;
   -webkit-backface-visibility: visible;
   backface-visibility: visible;
 }
 
 /*--- Fixed Background Image --*/
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003133}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003152}}
 figure {
   position: relative;
   width: 100%;
   height: 60%;
   margin: 0 !important;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003157}}
 figure .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -174,7 +199,7 @@ figure .fixed-wrap {
   width: 100%;
   height: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003165}}
 figure #fixed {
   background-image: url("../../img/mac1.png");
   position: fixed;
@@ -189,7 +214,7 @@ figure #fixed {
   transform: translateZ(0);
   will-change: transform;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003160}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003179}}
 figure #fixed1 {
   background-image: url("../../img/mac2.svg");
   position: fixed;
@@ -204,7 +229,7 @@ figure #fixed1 {
   transform: translateZ(0);
   will-change: transform;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003193}}
 figure #fixed2 {
   background-image: url("../../img/mac3.svg");
   position: fixed;
@@ -219,7 +244,7 @@ figure #fixed2 {
   transform: translateZ(0);
   will-change: transform;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003207}}
 figure #fixed3 {
   background-image: url("../../img/mac4.svg");
   position: fixed;
@@ -234,25 +259,40 @@ figure #fixed3 {
   transform: translateZ(0);
   will-change: transform;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003221}}
+figure #fixed4 {
+  background-image: url("../../img/why.svg");
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
 
 /*--- Bootstrap Padding Fix --*/
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003238}}
 [class*="col-"] {
   padding: 1rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003242}}
 .text {
   margin-top: -10vh;
 }
 
 /* About */
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003248}}
 img.logo-b {
   width: 20vh;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/github2\/assets\/styles\/sass\/pages\/_s\.scss}line{font-family:\00003255}}
 .white-color:hover {
   background: #8B4513;
 }
